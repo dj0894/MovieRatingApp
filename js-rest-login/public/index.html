@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Items Score</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="login">
+            <h1>Login</h1>
+            <label>Username: <input type="text"></label>
+            <button class="login-btn" type="button">Login</button>
+            <div class="login-status"></div>
+        </div>
+
+        <input type="hidden" class="username hidden" name="username" id="username" value="" />
+
+        <div class="logout hidden">
+            <label>User: <span id="logged-user" class="logged-user"></span></label>
+            <button class="logout-btn" type="button">Logout</button>
+        </div>
+
+        <div class="to-add-items hidden">
+            <div class="add-items">
+                Add Movie:
+                <input class="item-input">
+                <button class="add-btn">Add</button>
+            </div>
+            <div class="sort-radio-btn">
+                <div>
+                    <label>Sorting order</label>
+                </div>
+                <div>
+                    <input type="radio" id="ascending" name="sort" value="asc">
+                    <label for="male">Ascending</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="descending" name="sort" value="desc">
+                    <label for="female">Descending</label>
+                </div>
+            </div>
+        </div>
+        <div class="status hidden"></div>
+        <div class="items-div hidden">
+            <h1>List of Movies</h1>
+            <div class="items hidden"></div>
+        </div>
+    </div>
+    <script src="items.js"></script>
+</body>
+
+</html>
