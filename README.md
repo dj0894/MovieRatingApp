@@ -26,3 +26,10 @@ Movie rating app is Single Page Application used to rate the movie. It provides 
 * Run `npm run build` for production build.
 * Run `node server.js`, for running and then going to `http://localhost:3000/`
 
+## Screenshots
+![login](./js-rest-login/screenshots/login.png)
+![add Movies](./js-rest-login/screenshots/addMovies.png)
+![ascendingSorting](./js-rest-login/screenshots/ascendingSorting.png)
+![descendingSorting](./js-rest-login/screenshots/descendingSorting.png)
+
+
